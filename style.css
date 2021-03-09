@@ -7,25 +7,131 @@
     font-size: 25px;
 }
 
-.functionalities-choice{
+.functionalities-element{
     display: flex;
     align-items: center;
 }
 .number-1{ 
-    margin-right: 20px;
+    margin-right: 22px;
 }
 .functionalities-choice-title{
     margin-left: 20px;
 }
-.functionalities-composition{
-    display: flex;
-    align-items: center;
-}
+
 .number-2{
     margin-right: 20px;
 }
 .functionalities-composition-title{
     margin-left: 20px;
 }
+.functionalities-booking-title{
+    margin-left: 20px;
+}
+.number-3{
+    margin-right: 20px;
+}
+
+
+.column{
+    background-color:#F2F2F2 ;
+    padding-top: 20px;
+}
+.column-title{
+    margin-left: 20px;
+}
+.col-1-title{
+    padding: 0px;
+}
+.col-1-title-heart{
+    margin-left: 15px;
+}
+.heart-icon{
+    font-size: 30px;
+}
+.col-1-title-name{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.col-1{
+    border: 2px solid #F2F2F2  ;
+    border-radius: 14px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.col-1-picture{
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px 14px 0px 0px;
+}
+.col-1-title-heart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 16px;
+    margin-left: 2Opx;
+}
+
+
+.col-2{
+    border: 2px solid #F2F2F2  ;
+    border-radius: 14px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white; 
+    height: 370px;
+    background-size: cover;
+}
+.col-2-picture{
+    width: 100%;
+    height: 270px;
+    border-radius: 14px 14px 0px 0px;
+    background-size: cover;
+}
+.heart-icon-charonne{
+    color: #9356DC;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+.footer-title{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.footer-prposition{
+    display: flex;
+    align-items: center;
+    color: white; 
+    font-size: 20px; 
+    margin-left: 20px;
+}
+.couvert-icon{
+    margin-right: 15px;
+}
+.footer-partner{
+    display: flex;
+    align-items: center;
+    color: white; 
+    font-size: 20px; 
+    margin-left: 20px;
+}
+.partner-icon{
+    margin-right: 15px;
+}
+.footer-mention{
+    color: white; 
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+
+
+
 
 
