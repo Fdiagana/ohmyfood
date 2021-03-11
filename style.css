@@ -14,20 +14,18 @@
     
 }
 .main-brand-primary{
-    text-align-last: center;
-    font-size: 40px;
-   
+    text-align: center;
+    font-size: 24px; 
 }
 .main-brand-secondary{
-    font-size: 25px;
-    text-align-last: center;
-   
+    text-align: center; 
+    font-size: 24px;
 }
-button{
-    border: solid white;
+.button{
+    text-align: center;
     border-radius: 35px;
-    padding: 15px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     background-color: #d156dc ;
     color: white;
     margin-left: 20px;
@@ -48,6 +46,10 @@ button{
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     
 }
+.marker-title{
+    display: flex;
+    align-items: center; 
+}
 .functionalities-element-booking{
     position: relative;
     display: flex;
@@ -61,6 +63,9 @@ button{
 }
 .number-1{ 
     position: absolute;
+    left: -8px;
+    bottom: 28px;
+    align-items: center;
     margin-right: 20px;
     width: 20px;
     height: 20px;
@@ -71,6 +76,7 @@ button{
     background-color:#9356DC;
     color: white;
 }
+
 .mobile-marker{
     margin-left: 45px;
 }
@@ -80,6 +86,8 @@ button{
 
 .number-2{
     position: absolute;
+    left: -8px;
+    bottom: 28px;
     margin-right: 20px;
     width: 20px;
     height: 20px;
@@ -101,6 +109,8 @@ button{
 }
 .number-3{
     position: absolute;
+    left: -8px;
+    bottom: 28px;
     margin-right: 20px;
     width: 20px;
     height: 20px;
@@ -143,10 +153,23 @@ button{
     margin-bottom: 10px;
     background-color: white;
 }
+.col-element{
+    position: relative;
+}
 .col-1-picture{
     max-width: 100%;
     height: auto;
     border-radius: 14px 14px 0px 0px;
+}
+.col-picture-new{
+    color: green;
+    font-size: 16px;
+    border: solid #99E2D0;
+    background-color: #99E2D0;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    padding: 6px;
 }
 .col-1-title-heart{
     display: flex;
