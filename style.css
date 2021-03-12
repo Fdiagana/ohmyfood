@@ -1,3 +1,4 @@
+/* CSS de la page d'accueil ohmyfood */
 .main-location{
     display: flex;
     align-items: center;
@@ -19,7 +20,7 @@
 }
 .main-brand-secondary{
     text-align: center; 
-    font-size: 24px;
+    font-size: 20px;
 }
 .button{
     text-align: center;
@@ -31,9 +32,10 @@
     margin-left: 20px;
 }
 .functionalities-title{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .functionalities-element{
     position: relative;
@@ -48,6 +50,7 @@
 }
 .marker-title{
     display: flex;
+    justify-content: center;
     align-items: center; 
 }
 .functionalities-element-booking{
@@ -235,6 +238,7 @@
     font-size: 20px; 
     margin-left: 20px;
 }
+/* CSS de la page du restaurant Ménilmontant */
 
 
 
