@@ -1,4 +1,8 @@
 /* CSS de la page d'accueil ohmyfood */
+.logo{
+    display: flex;
+    justify-content: center;
+}
 .main-location{
     display: flex;
     align-items: center;
@@ -27,10 +31,10 @@
     padding: 2px;
     font-size: 20px;
     background-color: #d156dc ;
-    color: white;
+    background:-webkit-gradient(linear, right top, right bottom, from(#FF79DA), to(#9356DC));
+    -webkit-text-fill-color: white;
     margin-left: 60px;
     margin-right: 60px;
-    box-shadow: #d156dc;
 }
 .functionalities-title{
     display: flex;
@@ -137,11 +141,9 @@ a{
     margin-top: 20px;
     padding-bottom: 60px;
 }
+
 .column-title{
     margin-left: 20px;
-}
-.col-1-title{
-    padding: 0px;
 }
 .col-1-title-heart{
     margin-left: 15px;
@@ -211,9 +213,13 @@ a{
     background-size: cover;
 }
 .heart-icon-charonne{
-    color: #9356DC;
-    font-size: 30px;
+    background: -webkit-gradient(linear, left bottom, right top, from(#FF79DA), to(#9356DC));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    display: initial;
+    font-size: 30px; 
 }
+
 /* je mets en place le css pour le footer */
 
 .footer{
@@ -252,6 +258,10 @@ a{
     font-size: 20px; 
     margin-left: 20px;
     margin-bottom: 7px;
+}
+.contact{
+    text-decoration: none;
+    color: white;
 }
 
 
