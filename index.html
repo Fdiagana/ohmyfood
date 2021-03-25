@@ -18,6 +18,7 @@
             <img src="images/logo/ohmyfood@2x.svg" alt="ohmyfood logo"> 
         </div>         
     </header>
+    
     <!-- barre de recherche permettant de localiser les restaurants-->
     <main>
             <div class="main-brand">
@@ -38,7 +39,9 @@
                     </p>
                 </div>
                 <div class="button">
-                        <p>Explorer nos restaurants</p>
+                        <a>
+                            <div>Explorer nos restaurants</div>
+                        </a>
                 </div>
             </div>        
     </main>
@@ -128,7 +131,14 @@
                             <p class="col-1-title-description">
                                 La note enchantée
                             </p>
-                                <i class="heart-icon-charonne fas fa-heart"></i>
+                            <div class="container">
+                                <i class="far fa-heart empty"></i>
+                                <i class= "fa fa-heart full"></i>
+                            </div>
+                           <!-- <span class=" fa-stack far-2x">
+                                <i class=" far fa-heart fa-stack-2x"></i>
+                                <i class="heart-icon-charonne fas fa-heart fa-stack-2x fa-inverse"></i>
+                            </span> --> 
                         </div>
                         <div class="col-1-title-name">
                                 charonne
@@ -200,3 +210,11 @@
     </section> 
 </body>
 </html>
+<div class="wrapper">
+    <div class="loading-spinner"></div>
+    <div class="loading-dots">
+        <div class="bounce"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>

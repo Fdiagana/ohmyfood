@@ -77,9 +77,11 @@ body{
     -webkit-text-fill-color: white;
     margin-left: 100px; 
     margin-right: 100px;
-    /* width: 60%; */
     margin-top: 80px;
-   
+    transition: background-color 700ms;  
+}
+.button:hover{
+    background : -webkit-gradient(linear, right top, right bottom, from(#f191d6), to(#a274da)); 
 }
 /* je mets en place le css pour le footer */
 
