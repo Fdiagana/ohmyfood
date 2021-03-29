@@ -45,11 +45,16 @@ body{
 .columns{
     margin-bottom: 40px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .col-1{
     border-radius: 14px;
     background-color: white;
     margin: 25px 20px 20px 25px;
     padding: 15px 15px 15px 0px;
+   
     /* padding-bottom: 1px; */
 }
 .col-1-description{
@@ -58,13 +63,22 @@ body{
     margin-left: 10px; 
     margin-right: 13px;
     margin-top: 4px;
-
+    
+}
+.description-title{
+    max-width: 70%;
+    white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .title{
     margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
+    
+   
 }
+
 .button{
     display: flex;
     justify-content: center;
@@ -124,3 +138,32 @@ body{
     margin-left: 20px;
     margin-bottom: 7px;
 }
+/* je mets en place l'animation CSS pour l'apparition progressive des cards */
+
+.main-element-card :nth-child(2){
+    animation: fadeinout  1s linear forwards;
+    
+}
+.main-element-card :nth-child(3){
+    animation: fadeinout  2s linear forwards;
+    
+}
+.main-element-card :nth-child(4){
+    animation: fadeinout  3s linear forwards;
+}
+.main-element-card :nth-child(5){
+    animation: fadeinout  4s linear forwards;
+}
+
+ @keyframes fadeinout { 
+    
+    from{
+        opacity: 0;  
+    }
+    
+    to{ 
+        opacity:1 ;
+        
+    }
+}
+
