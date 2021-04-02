@@ -49,46 +49,88 @@ a{
     text-decoration: none;
     color: black;
 }
+
+
 .col-1{
     border-radius: 14px;
     background-color: white;
     margin: 25px 20px 20px 25px;
     padding: 15px 15px 15px 0px;
-  
-    flex-wrap: wrap;
+    box-shadow : 0 4px 1rem #ddd;
+    position: relative;
+    overflow: hidden;
    
     /* padding-bottom: 1px; */
 }
+.col-1{
+    max-width: 100%; 
+    transition: 1s;
+}
+.col-1-check{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    width: 0;
+    justify-content: flex-end;
+    transition : width 1s;
+    align-items: center;
+    align-content: center;
+}
+.col-1-check i {
+    border-radius: 60%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 16px;
+    margin-top: 16px;
+    display : flex;
+    opacity : 0;
+    align-items: flex-start;
+    transform : rotate(360deg);
+    transition :opacity 400ms ease-in-out, transform 1s ease-in-out;
+  }
+.col-1:hover .col-1-check {
+    background : #9ed;
+    width : 25%; 
+    color:#9ed  ; 
+  }
+.col-1-check{
+    color:white ;
+}
+.col-1:hover .col-1-check i{
+    opacity: 1;
+    transform: rotate(0deg);
+}
+.col-1:hover .col-1-meal{
+    width : 70%;
+  }
 .col-1-description{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px; 
-    margin-right: 13px;
-    margin-top: 4px;  
+  margin-left : 14px;
+  display: flex;
+  flex-direction: row; 
+}
+.col-1-desc-price{
+    margin-right: 14px;
 }
 .title{
     max-width: 70%;
+    margin-left: 14px;
     white-space: nowrap;  
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .description-title{
-    max-width: 70%;
-    white-space: nowrap;  
-    overflow: hidden;
+    text-overflow: ellipsis; 
+    flex: 1;
+    white-space: nowrap;
     text-overflow: ellipsis;
-}
-.ellipsis-box{
-    width: 180px;
+    overflow: hidden;
+    min-width: 0;
+    margin-right: 12px;
 }
 
-.title{
-    margin-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    
-   
-}
 
 .button{
     display: flex;
@@ -152,7 +194,7 @@ a{
 /* je mets en place l'animation CSS pour l'apparition progressive des cards */
 
 .main-element-card :nth-child(2){
-    animation: fadeinout  1s  linear forwards;
+    animation: fadeinout  1s   linear forwards;
     
 }
 .main-element-card :nth-child(3){
@@ -162,7 +204,7 @@ a{
 .main-element-card :nth-child(4){
     animation: fadeinout  1s 400ms linear forwards;
 }
-.main-element-card :nth-child(5){ 
+.main-element-card :nth-child(5){  
     animation: fadeinout  1s 500ms linear forwards;
 }
 
@@ -170,7 +212,7 @@ a{
     
     0%{ 
         opacity: 0; 
-        transform: translateY(25%); 
+        transform: translateY(15%); 
     }
     
     100%{ 
