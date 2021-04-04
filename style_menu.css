@@ -7,6 +7,9 @@ body{
     align-items: center;
     justify-content: space-around;  
 }
+.back-index{
+    display: none;
+}
 
 /* CSS pour les differents images des restaurants en background */
 .food-picture{
@@ -14,6 +17,13 @@ body{
     position: absolute;
     max-width: 100%;
     height: auto;
+    background-size: cover;
+}
+.food-picture-charonne{
+    top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-size: cover;
 }
 
@@ -153,6 +163,7 @@ a{
 /* je mets en place le css pour le footer */
 
 .footer{
+    position: relative;
     background-color: #353535;
 
 
@@ -218,11 +229,30 @@ a{
     100%{ 
         opacity:1 ;
         transform: translateY(0%);   
-    }
-    /* 100%{  
-        opacity: 1; 
-        transform: translateY(0); 
-    }*/
-    
+    }  
 }
+
+/* css de la version desktop */
+@media  screen and (min-width:1024px){
+
+.meal-box{
+    display: flex;
+    justify-content: space-between;
+}
+.columns{
+    width: 30%;
+}
+.arrow{
+    display: none;
+}
+.back-index{
+    display: flex;
+    font-weight: bold;
+    border-bottom: solid;
+  
+}
+
+
+
+
 
