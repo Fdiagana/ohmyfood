@@ -2,6 +2,12 @@ body{
     margin: 0%;
     padding: 0%;
 }
+h1,h2,h3{
+    font-family: 'Shrikhand' , sans-serif;
+}
+p{
+    font-family: 'Roboto' , sans-serif;  
+}
 .brand{
     display:flex;
     align-items: center;
@@ -123,6 +129,8 @@ a{
 }
 .col-1-desc-price{
     margin-right: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .title{
     max-width: 70%;
@@ -130,6 +138,9 @@ a{
     white-space: nowrap;  
     overflow: hidden;
     text-overflow: ellipsis;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 20px;
 }
 .description-title{
     text-overflow: ellipsis; 
@@ -139,6 +150,8 @@ a{
     overflow: hidden;
     min-width: 0;
     margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -250,6 +263,10 @@ a{
     font-weight: bold;
     border-bottom: solid;
   
+}
+.button{
+    width: 20%;
+    margin-left: 26em;
 }
 
 
