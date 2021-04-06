@@ -58,7 +58,7 @@ p{
     padding-bottom: 6px;
     margin-left: 25px;
 }
-.columns{
+.columns, .columns-dessert{
     margin-bottom: 40px;
 }
 a{
@@ -82,6 +82,8 @@ a{
     max-width: 100%; 
     transition: 1s;
 }
+
+/* mise de la fonctionnalité animée qui permet la séléction des plats */
 .col-1-check{
     position: absolute;
     top:0;
@@ -109,7 +111,7 @@ a{
   }
 .col-1:hover .col-1-check {
     background : #9ed;
-    width : 25%; 
+    width : 20%; 
     color:#9ed  ; 
   }
 .col-1-check{
@@ -122,6 +124,9 @@ a{
 .col-1:hover .col-1-meal{
     width : 70%;
   }
+
+
+
 .col-1-description{
   margin-left : 14px;
   display: flex;
@@ -134,12 +139,13 @@ a{
 }
 .title{
     max-width: 70%;
-    margin-left: 14px;
+    margin-left: 12px;
     white-space: nowrap;  
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 1px;
     font-size: 20px;
 }
 .description-title{
@@ -150,7 +156,7 @@ a{
     overflow: hidden;
     min-width: 0;
     margin-right: 12px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
@@ -182,9 +188,8 @@ a{
 
 }
 .footer-title{
-    color: white;
+    filter: invert(1);
     margin-left: 20px;
-    font-size: 30px;
     margin-bottom: 14px;
 }
 .footer-prposition{
@@ -244,17 +249,38 @@ a{
         transform: translateY(0%);   
     }  
 }
+/* css de la version tablette */
+@media  screen and (min-width: 767px) and (max-width:1336px){
 
+.meal-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.columns{
+    min-width: 45%;
+}
+.columns-dessert{
+    width: 100%;
+}
+.button{
+    width: 50%;
+    
+}
+
+
+
+}
 /* css de la version desktop */
 @media  screen and (min-width:1024px){
 
 .meal-box{
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
-.columns{
-    width: 30%;
-}
+
 .arrow{
     display: none;
 }
@@ -264,9 +290,26 @@ a{
     border-bottom: solid;
   
 }
+.col-1:hover .col-1-check {
+    width : 20%;  
+  }
 .button{
     width: 20%;
     margin-left: 26em;
+}
+
+.footer-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+
+ 
 }
 
 
