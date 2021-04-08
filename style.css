@@ -163,6 +163,7 @@ a{
     color: black;
 
 }
+
 .column{
     background-color: #f6f6f6 ;
     padding-top: 20px;
@@ -193,22 +194,22 @@ a{
     font-weight: bold;
     margin-bottom: 0%;
 }
-.col-1{
+/* .col-1{
     border: 2px solid #F2F2F2  ;
     border-radius: 14px;
     margin-left: 10px; 
     margin-right: 10px;
     margin-bottom: 20px;
     background-color: white;
-}
+} */
 .col-element{
     position: relative;
 }
-.col-1-picture{
+/* .col-1-picture{ 
     max-width: 100%;
     height: auto;
     border-radius: 14px 14px 0px 0px;
-}
+}*/
 .col-picture-new{
     color: #008766;
     font-size: 16px;
@@ -226,23 +227,53 @@ a{
     margin-right: 16px;
     margin-left: 2Opx;
 }
-.col-2{
-    border: 2px solid #F2F2F2  ;
-    border-radius: 14px;
-    margin-left: 10px; 
-    margin-right: 10px;
-    margin-bottom: 20px;
-    background-color: white; 
-    height: 290px;
+.block-image-mama{
+    background-image: url("images/restaurants/mama-food.jpg");
     background-size: cover;
-    margin-top: 10px;
+    background-position:center ;
+    height: 250px;
+    width: auto;
+    border-radius: 14px 14px 0px 0px;
 }
-.col-2-picture{
+.block-image-african{
+    background-image: url("images/restaurants/african-food.jpg");
+    background-size: cover;
+    background-position:center ;
+    height: 250px;
+    width: auto;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.block-image-fouta{
+    background-image: url("images/restaurants/fouta-food.jpg");
+    background-size: cover;
+    background-position:center ;
+    height: 250px;
+    width: auto;
+    border-radius: 14px 14px 0px 0px;
+}
+.block-image-didi{
+    background-image: url("images/restaurants/didi-food.jpg");
+    background-size: cover;
+    background-position:center ;
+    height: 250px;
+    width: auto;
+    border-radius: 14px 14px 0px 0px;
+}
+
+
+.column-card{
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 20px;   
+}
+/* .col-2-picture{ 
     width: 100%;
     height: 190px;
     border-radius: 14px 14px 0px 0px;
     background-size: cover;
-}
+}*/
 
 .container:hover .empty{
     display: none;
@@ -262,8 +293,9 @@ a{
     background: -webkit-gradient(linear, left bottom, right top, from(#FF79DA), to(#9356DC));
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;   
-    display: initial; 
+    display: initial;
 }
+
 
 .container {
   transition: width 400ms;
@@ -326,19 +358,20 @@ a{
     bottom: 0;
     right: 0;
     left: 0;
-    animation: hiddenspin 0s 3s infinite linear both;     
+    animation: hiddenspin 0s 3s infinite linear both; 
+       
 }
 
 .loading-spinner{
     width: 10rem;
     height: 10rem;
-    display: inline-block; 
+    display: inline-block;  
     border: 3px solid #9356DC;
     border-radius: 50%;
     border-top-color: #fff;
     margin-bottom: 10rem;
-   
-    animation: spin 2s  infinite ease-in-out ;      
+    animation: spin 1s  infinite ease-in-out ;  
+       
 }
 @keyframes hiddenspin {
    
@@ -382,12 +415,12 @@ a{
     40%{
         transform: scale(1);
     }
-
 }
 
 
 /* je mets en place le css pour les tablettes */
-@media  screen and (min-width: 767px) and (max-width:1336px) {
+
+@media  screen and (min-width: 576px) and (max-width:992px) {  
 
 .button{
     width: 30%;
@@ -415,26 +448,6 @@ a{
     margin-left: 20px;
 }
 
-.column-elements{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 100%;
-}
-
-.col-1{
-    width: 98%;
-    height: 300px;
-    background-size: cover;
-}
-.col-1-picture{
-    height: 230px;
-    width: 100%;
-    background-size: cover;
-}
 .col-1-title-description{
     font-size: 18px;
 }
@@ -442,28 +455,18 @@ a{
     font-size: 16px;
 }
 
-.col-2{
-    width: 98%;
+.column-card{
+    width: 100%;
     height: 250px;
     background-size: cover;
     padding-bottom: 47px; 
      
 }
-.col-2-picture{
-   /* margin-bottom: 40px; */
-   width: 100%;
-   height: 230px;
-   background-size: cover;
-
+       
 }
-
-        
-}
-
-
 
 /* je mets en place le CSS pour la version desktop */
-@media  screen and (min-width:1337px){
+ @media  screen and (min-width: 992px){  
 .button{
     width: 20%;
     margin-left: 25em;
@@ -488,22 +491,18 @@ a{
 
  .column-elements{ 
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    /* flex-direction: row; */
     align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: 100%;
 }
 
 .col-1{
     width: 600px;
     height: 300px;
 }
-.col-1-picture{
-    height: 230px;
-    width: 600px;
-}
+
 .col-1-title-description{
     font-size: 18px;
 }
@@ -512,17 +511,9 @@ a{
 }
 
 .col-2{
-    width: 600px;
-    height: 250px;
-    background-size: cover;
-    padding-bottom: 47px; 
-     
+     width: 600px;    
 }
-.col-2-picture{
-   /* margin-bottom: 40px; */
-   height: 230px;
 
-}
 .footer-elements{
     display: flex;
     flex-direction: row;
