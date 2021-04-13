@@ -16,6 +16,9 @@ p{
 .back-index{
     display: none;
 }
+.meal-box{
+    max-width: 100%;
+}
 
 /* CSS pour les differents images des restaurants en background */
 .food-picture{
@@ -58,7 +61,7 @@ p{
     padding-bottom: 6px;
     margin-left: 25px;
 }
-.columns, .columns-dessert{
+.columns{
     margin-bottom: 40px;
 }
 a{
@@ -256,38 +259,53 @@ a{
     }  
 }
 /* css de la version tablette */
-@media  screen and (min-width: 767px) and (max-width:1336px){
+@media  screen and (min-width: 576px) and (max-width: 1224px){
 
 .meal-box{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 100%;
     
 }
 .columns{
-    min-width: 45%;
-}
-.columns-dessert{
     width: 100%;
-}
-.button{
+} 
+
+.button{ 
     width: 50%;
+    display: flex;
+    justify-content: center;
     
+}
+.arrow{
+    display: none;
+}
+.back-index{
+    display: flex;
+    font-weight: bold;
+    border-bottom: solid;
+  
 }
 
 
 
 }
 /* css de la version desktop */
-@media  screen and (min-width:1336px){
+@media  screen and (min-width:1224px){
 
 .meal-box{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    width: 100%;
 }
-.columns, .columns-dessert {
+.main{
+    max-width: 100%;
+}
+.columns {
     flex: 1;
+    max-width: 100%;
 }
 
 .arrow{
@@ -302,7 +320,7 @@ a{
 .col-1:hover .col-1-check {
     width : 20%;  
   }
-.button{
+.button{ 
     width: 20%;
     margin-left: 26em;
 }
