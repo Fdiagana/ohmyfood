@@ -445,9 +445,11 @@ footer{
 }
 
 /* intermediare */
-.button{
-    width: 30%;
-    margin-left: 13em;
+.button{ 
+    width: 250px;
+    display: block;
+    margin: auto;
+    
 }
 
 @media  screen and (min-width: 992px) and (max-width:1336px){
@@ -472,10 +474,12 @@ footer{
 
 /* je mets en place le CSS pour la version desktop */
  @media  screen and (min-width: 1336px){  
-.button{
-    width: 20%;
-    margin-left: 25em;
-}
+    .button{ 
+        width: 300px;
+        display: block;
+        margin: auto;
+        
+    }
 
 
 .functionnalities-card{
