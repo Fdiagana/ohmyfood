@@ -413,8 +413,8 @@ footer{
 .functionalities-element{
     width: 40%;
     padding: 6px;
-}
-.functionalities-element-booking{
+ }
+/*.functionalities-element-booking{
     width: 40%;
     padding: 6px;
     margin-left: 15em;
@@ -422,7 +422,7 @@ footer{
 }
 .functionalities-booking-title{
     margin-left: 20px;
-}
+}*/
 
 .col-1-title-description{
     font-size: 18px;
@@ -445,6 +445,10 @@ footer{
 }
 
 /* intermediare */
+.button{
+    width: 30%;
+    margin-left: 13em;
+}
 
 @media  screen and (min-width: 992px) and (max-width:1336px){
 .column-elements{  
@@ -463,6 +467,16 @@ footer{
     margin-right: 0; 
          
 }
+.functionnalities-card{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.functionalities-element{
+    width: 40%;
+    padding: 6px;
+ }
 }
 
 /* je mets en place le CSS pour la version desktop */
