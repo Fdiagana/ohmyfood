@@ -467,16 +467,7 @@ footer{
     margin-right: 0; 
          
 }
-.functionnalities-card{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-}
-.functionalities-element{
-    width: 40%;
-    padding: 6px;
- }
+
 }
 
 /* je mets en place le CSS pour la version desktop */
