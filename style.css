@@ -461,11 +461,23 @@ footer{
     margin-right: 0; 
          
 }
+.functionalities-element{
+    width: 30%; 
+    padding: 6px;
+}
+.functionnalities-card{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
 
 }
 
 /* je mets en place le CSS pour la version desktop */
- @media  screen and (min-width: 992px){  
+ @media  screen and (min-width: 1336px){  
     .button{ 
         width: 300px;
         display: block;

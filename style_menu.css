@@ -256,44 +256,49 @@ footer{
 /* je mets en place l'animation CSS pour l'apparition progressive des cards */
 
 .fade-1{
-    animation: fadeIn  400ms ;
+    animation: fadeIn  400ms  ;
 }
 .fade-2{
     animation: fadeIn 800ms;
 }
 .fade-3{
-    animation: fadeIn 1200ms;
+    animation: fadeIn 1200ms ;
 }
 .fade-4{
-    animation: fadeIn 1600ms;
+    animation: fadeIn 1600ms ;
 }
 .fade-5{
-    animation: fadeIn 1800ms;
+    animation: fadeIn 1800ms ;
 }
 .fade-6{
-    animation: fadeIn 2200ms;
+    animation: fadeIn 2200ms ;
 }
 .fade-7{
-    animation: fadeIn 2600ms;
+    animation: fadeIn 2400ms ;
 }
 .fade-8{
-    animation: fadeIn 3s;
+    animation: fadeIn 2800ms ;
 }
 .fade-9{
-    animation: fadeIn 3200ms;
+    animation: fadeIn 3200ms ;
 }
 .fade-10{
-    animation: fadeIn 3600ms;
+    animation: fadeIn 3400ms ;
 }
 .fade-11{
-    animation: fadeIn 4s;
+    animation: fadeIn 3600ms ;
+}
+.fade-12{
+    animation: fadeIn 4s ;
 }
 @keyframes fadeIn {
     from {
-      transform: scale(0.1);
+      transform: scale(0.1); 
+      
     }
     to {
-      transform: scale(1);
+      transform: scale(1); 
+      
     }
 }
 
