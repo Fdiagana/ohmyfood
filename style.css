@@ -414,15 +414,7 @@ footer{
     width: 40%;
     padding: 6px;
  }
-/*.functionalities-element-booking{
-    width: 40%;
-    padding: 6px;
-    margin-left: 15em;
-    margin-top: 2em;
-}
-.functionalities-booking-title{
-    margin-left: 20px;
-}*/
+
 
 .col-1-title-description{
     font-size: 18px;
@@ -473,7 +465,7 @@ footer{
 }
 
 /* je mets en place le CSS pour la version desktop */
- @media  screen and (min-width: 1336px){  
+ @media  screen and (min-width: 992px){  
     .button{ 
         width: 300px;
         display: block;
@@ -484,18 +476,17 @@ footer{
 
 .functionnalities-card{
     display: flex;
+    flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
     flex-wrap: nowrap;
+
 }
 .functionalities-element{
-    width: 30%;
+    width: 30%; 
     padding: 6px;
 }
-.functionalities-element-booking{
-    width: 30%;
-    padding: 6px;
-}
+
 
 
 .column-elements{  
