@@ -55,6 +55,27 @@ p{
 .heart-icon{
     font-size: 25px;
 }
+.empty{ 
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+}
+.full{
+    opacity: 0;  
+    background: -webkit-gradient(linear, left bottom, right top, from(#FF79DA
+    ), to(#9356DC)); 
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;    
+    display: initial; 
+    color: transparent; 
+    transition: opacity 300ms 15ms ease-in-out;  
+
+}
+.empty:hover{
+    opacity: 0;
+}
+.full:hover{
+    opacity: 1;
+}
 .main-element-card-food{
     border-bottom: solid green;
     width: 10%;
