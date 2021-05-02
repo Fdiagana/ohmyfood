@@ -256,7 +256,7 @@ footer{
 /* je mets en place l'animation CSS pour l'apparition progressive des cards */
 
 .fade-1{
-    animation: fadeIn  400ms  ;
+    animation: fadeIn  400ms;
 }
 .fade-2{
     animation: fadeIn 800ms;
@@ -306,36 +306,36 @@ footer{
 /* css de la version tablette */
 @media  screen and (min-width: 576px) and (max-width: 1224px){
 
-.col-1-check i{
-    margin-left: 40%;
-}
+    .col-1-check i{
+        margin-left: 40%;
+    }
 
-.meal-box{
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    max-width: 100%;
+    .meal-box{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        max-width: 100%;
     
-}
-.columns{
-    width: 100%;
-} 
+    }
+    .columns{
+        width: 100%;
+    } 
 
-.button{ 
-    width: 300px;
-    display: block;
-    margin: auto;
+    .button{ 
+        width: 300px;
+        display: block;
+        margin: auto;
     
-}
-.arrow{
-    display: none;
-}
-.back-index{
-    display: flex;
-    font-weight: bold;
-    border-bottom: solid;
+    }
+    .arrow{
+        display: none;
+    }
+    .back-index{
+        display: flex;
+        font-weight: bold;
+        border-bottom: solid;
   
-}
+    }
 
 
 
@@ -344,47 +344,47 @@ footer{
 /* css de la version desktop */
 @media  screen and (min-width:1224px){
 
-.meal-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 100%;
-}
-.main{
-    max-width: 100%;
-}
-.columns {
-    flex: 1;
-    max-width: 100%;
-}
+    .meal-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .main{
+        max-width: 100%;
+    }
+    .columns {
+        flex: 1;
+        max-width: 100%;
+    }
 
-.arrow{
-    display: none;
-}
-.back-index{
-    display: flex;
-    font-weight: bold;
-    border-bottom: solid;
+    .arrow{
+        display: none;
+    }
+    .back-index{
+        display: flex;
+        font-weight: bold;
+        border-bottom: solid;
   
-}
-.col-1:hover .col-1-check {
-    width : 20%;  
-  }
-.button{ 
-    width: 20%;
-    margin-left: 26em;
-}
+    }
+    .col-1:hover .col-1-check {
+        width : 20%;  
+    }
+    .button{ 
+        width: 20%;
+        margin-left: 26em;
+    }
 
-.footer-elements{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 10px;
+    .footer-elements{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
 
-}
-.footer-title{
-    margin-bottom: 30px;
-}
+    }
+    .footer-title{
+        margin-bottom: 30px;
+    }
 
  
 }

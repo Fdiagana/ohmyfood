@@ -398,81 +398,82 @@ footer{
 
 @media  screen and (min-width: 576px) and (max-width:992px) {  
 
-.button{
-    width: 30%;
-    margin-left: 13em;
-}
+    .functionnalities-card{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+    }
+    .functionalities-element{
+        width: 40%;
+        padding: 6px;
+    }
 
 
-.functionnalities-card{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-}
-.functionalities-element{
-    width: 40%;
-    padding: 6px;
- }
+    .col-1-title-description{
+        font-size: 18px;
+    }
+    .col-1-title-name{
+        font-size: 16px;
+    }
 
-
-.col-1-title-description{
-    font-size: 18px;
-}
-.col-1-title-name{
-    font-size: 16px;
-}
-
-.column-card{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-    padding-bottom: 47px;
-    height: 270px;
-    width: 100%;
-    margin-right: 0; 
+    .column-card{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        padding-bottom: 47px;
+        height: 270px;
+        width: 100%;
+        margin-right: 0; 
      
-}
+    }
+    .button{ 
+        width: 250px;
+        display: block;
+        margin: auto;
+    
+    }
        
 }
 
 /* intermediare */
-.button{ 
-    width: 250px;
-    display: block;
-    margin: auto;
-    
-}
+
 
 @media  screen and (min-width: 992px) and (max-width:1336px){
-.column-elements{  
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
+    .column-elements{  
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; 
     }
-.column-card{
-    width: 450px;
-    height: 250px;
-    background-size: cover;
-    padding-bottom: 47px;
-    height: 300px;
-    margin-right: 0; 
+    .column-card{
+        width: 450px;
+        height: 250px;
+        background-size: cover;
+        padding-bottom: 47px;
+        height: 300px;
+        margin-right: 0; 
          
-}
-.functionalities-element{
-    width: 30%; 
-    padding: 6px;
-}
-.functionnalities-card{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    }
+    .functionalities-element{
+        width: 30%; 
+        padding: 6px;
+    }
+    .functionnalities-card{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: nowrap;
 
-}
+    }
+    .button{ 
+        width: 250px;
+        display: block;
+        margin: auto;
+    
+    }
 
 }
 
@@ -486,57 +487,56 @@ footer{
     }
 
 
-.functionnalities-card{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    .functionnalities-card{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: nowrap;
 
-}
-.functionalities-element{
-    width: 30%; 
-    padding: 6px;
-}
+    }
+    .functionalities-element{
+        width: 30%; 
+        padding: 6px;
+    }
 
 
 
-.column-elements{  
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-}
-.column-card{
-    width: 600px;
-    height: 300px;
-    background-size: cover;
-    padding-bottom: 47px;
-    /* height: 270px; */
-    margin-right: 0; 
+    .column-elements{  
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+    }
+    .column-card{
+        width: 600px;
+        height: 300px;
+        background-size: cover;
+        padding-bottom: 47px;
+        margin-right: 0; 
      
-}
+    }
 
 
-.col-1-title-description{
-    font-size: 20px;
-}
-.col-1-title-name{
-    font-size: 22px;
-}
+    .col-1-title-description{
+        font-size: 20px;
+    }
+    .col-1-title-name{
+        font-size: 22px;
+    }
 
 
-.footer-elements{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 10px;
-}
+    .footer-elements{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
 
-.footer-title{
-    margin-bottom: 30px;
-}
+    .footer-title{
+        margin-bottom: 30px;
+    }
 
 }
 
