@@ -378,10 +378,10 @@ footer{
    
 }
 .loading-dots .bounce{
-     animation-delay: 0,30s; 
+     animation-delay: 300ms; 
 }
 .loading-dots .bounce2{
-    animation-delay: 0,15; 
+    animation-delay: 150ms; 
 }
 
 @keyframes bounce {
